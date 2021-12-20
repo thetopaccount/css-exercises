@@ -12,6 +12,20 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+}
+
+.right-side {
+  display: inline-flex;
+  margin-left: auto;
+  margin-right: 16px;
+  align-items: center;
+}
+
+.left-side {
+  display: flex;
+  align-items: center;
+  margin-left: 16px;
 }
 
 .profile-image {
@@ -45,4 +59,18 @@ a {
 
 ul {
   list-style-type: none;
+  padding-left: 0px;
+  display: inline-flex;
+  margin: 24px;
+}
+
+ul li {
+  margin: 0px 8px;
+}
+
+.notifications {
+  height: 2.5em;
+  display: inline-flex;
+  align-items: center;
+  margin-right: 12px;
 }
